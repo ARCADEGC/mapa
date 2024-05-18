@@ -6,7 +6,7 @@ import { db } from "@/db/migrate";
 import { Map } from "@/db/schema";
 import type { TSchemaMap } from "@/types/dbSchemas";
 
-export async function getUsers() {
+export async function getMaps() {
     return await db.select().from(Map);
 }
 
