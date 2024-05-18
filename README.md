@@ -1,6 +1,6 @@
 # TO RUN
 
-pull your env files with `POSTGRES_URL`
+pull your env files with `POSTGRES_URL` on vercel
 
 ```bash
 bun i
