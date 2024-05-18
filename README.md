@@ -1,6 +1,6 @@
 `bunx create-next-app@latest`
 
-`bun i -D prettier prettier-plugin-tailwindcss`
+`bun i -D prettier prettier-plugin-tailwindcss eslint-config-prettier`
 
 ```json
 {
@@ -27,8 +27,8 @@
 }
 ```
 
-`bun i -D eslint-config-prettier eslint-plugin-tailwindcss`
-
 `"extends": ["next/core-web-vitals", "plugin:tailwindcss/recommended", "prettier"]`
 
 `bunx shadcn-ui@latest init`
+
+`bun i framer-motion lucide-react`
