@@ -30,3 +30,5 @@
 `bun i -D eslint-config-prettier eslint-plugin-tailwindcss`
 
 `"extends": ["next/core-web-vitals", "plugin:tailwindcss/recommended", "prettier"]`
+
+`bunx shadcn-ui@latest init`
